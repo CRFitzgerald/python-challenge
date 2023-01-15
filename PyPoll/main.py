@@ -102,7 +102,7 @@ print ("-" * 25)
 
 # Export above results to .txt file in addition to terminal
 # Specify .txt file to write to
-output_path = os.path.join("Analysis", "PyPoll-Analysis.txt") #class 3.2 slide 42
+output_path = os.path.join("Analysis", "PyPoll-Analysis.txt")
 
 # Open the file using "write" mode. Specify variable to hold contents
 with open(output_path, 'w') as poll_analysis:
