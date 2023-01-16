@@ -7,9 +7,9 @@ PyPoll:
 
   Resources folder contains csv list of individual ballots with their district and preferred candidate. All data points in PyPoll are based on this file. Any change or defect of this file would corrupt all data and analysis found in PyPoll folder.
   
-  main.py is where all code is located. Code is 100% python. Using for loops, it counts votes as well as how many ballots contain each candidate's name. Candidate name list created and votes per           candidate list are created and zipped together. For loops through the zipped list determine winner.     Election Results are printed both in Terminal as well as creating a .txt file found in Analysis         folder.
+  main.py is where all code is located. Code is 100% python. Using for loops, it counts votes as well as how many ballots contain each candidate's name. Candidate name list and votes per           candidate lists are created and zipped together. Code for-loops through the zipped list to determine winner. Election Results are printed both in Terminal as well as creating a .txt file found in Analysis folder.
   
-  Analysis folder contains election results txt file. Contents of this file should be the same as what is printed in terminal.
+  Analysis folder contains election results .txt file. Contents of this file should be the same as what is printed in terminal.
   
 PyBank:
   
@@ -17,11 +17,11 @@ PyBank:
     
   main.py is where all code is located. Code is 100% python. Using for loops, it tracks month-to-month changes in revenue and performs calculations to find total months being tracked, sum of all       revenue during this period, average monthly change in revenue, as well as greatest month-to-month       increase and decrease. Financial Analysis are printed both in Terminal as well as creating a .txt       file found in Analysis folder.
     
-  Analysis folder contains election results txt file. Contents of this file should be the same as    what is printed in terminal.
+  Analysis folder contains financial analysis .txt file. Contents of this file should be the same as    what is printed in terminal.
     
 Results: After running main.py code found in PyPoll and PyBank folders, the below was              determined.
-    
-PyPoll: 
+
+  PyPoll: 
     
   There was a total of 369,711 votes cast.
   Charles Casper Stockham won 23.049% of those votes with 85213 cast for him.
@@ -46,7 +46,7 @@ It would be interesting to see total campagin spending per candidate, what bucke
 
 PyBank: Is this a money laundering operation? Financial records are disturbingly lax with zero itemization of money in/money out. This business is ripe to be audited by the IRS.
 
-With the average month-to-month change being a loss in the thousands of dollars, it is questionable how this business has continued to run for this many years as operating costs have only risen. Benefit of the doubt would say that the average change is being thrown off by an outlier decrease month, however the greatest increase and decrease months essentially cancel each other out (each in the low millions with an absolute difference of approximately $36k). 
+With the average month-to-month change being a loss in the thousands of dollars, it is questionable how this business has continued to run for this many years as operating costs would only have risen. Benefit of the doubt would say that the average change is being thrown off by an outlier decrease month, however the greatest increase and decrease months essentially cancel each other out (each in the low millions with an absolute difference of approximately $36k). 
     
     
     
